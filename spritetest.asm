@@ -10,6 +10,8 @@ MainProgram
         LDA #$0
         STA $D020
 
+        JSR SVGFX_GenerateBitFlipLookupTable
+
         LDA #<OriginalSprite
         STA SVGFX_SPRSRC
         LDA #>OriginalSprite
