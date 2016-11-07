@@ -2,7 +2,7 @@
 *=$8000
 
 ; SpriteRoutines
-; (C)2015 Sven Vermeulen
+; 2015 Sven Vermeulen
 
 
 ; General purpose pointers
